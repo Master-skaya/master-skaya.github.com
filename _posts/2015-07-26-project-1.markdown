@@ -12,5 +12,4 @@ description: |
 Уже сотни девушек и женщин из разных стран СНГ (а теперь, к нам охотно присоединяются и мужчины) стали независимыми с нами, вылезли из кабалы крeдитов и долгов.
 
 Если Вы лучше воспринимаете информацию в видеоформате-посмотрите 12-ти минутную презентацию на видео, нажав на ролик ниже.
-
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/I89ShxerXIU" frameborder="0" allowfullscreen> </iframe>
+<img class="youtube" rel="I89ShxerXIU" src="http://img.youtube.com/vi/I89ShxerXIU/hqdefault.jpg" />

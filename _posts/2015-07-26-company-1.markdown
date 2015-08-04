@@ -44,4 +44,4 @@ description: |
 НЕ используются!!!
  
 Работа исключительно информационно-рекламного характера!!!
-![](img/services/succes_stair.jpg)
+![](img/services/succes_stair.jpg){:width="100%"}
