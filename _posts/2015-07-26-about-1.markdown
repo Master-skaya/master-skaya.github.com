@@ -16,6 +16,5 @@ description: |
 
 Если Вы лучше воспринимаете информацию в видеоформате-посмотрите 12-ти минутную презентацию на видео, нажав на ролик ниже.
 
-<img class="youtube" rel="I89ShxerXIU" src="http://img.youtube.com/vi/I89ShxerXIU/hqdefault.jpg" />
-
+![](http://img.youtube.com/vi/I89ShxerXIU/maxresdefault.jpg){:width="100%" class="youtube" rel="I89ShxerXIU"}
 
