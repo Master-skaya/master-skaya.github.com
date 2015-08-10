@@ -4,7 +4,7 @@
 
 url: http://yoursite.com
 title: Мастерская успеха
-email: your-email@domain.com
+email: craz@list.ru
 author: Valentina Taipova
 description: > # "партнерская система"
 
@@ -25,5 +25,18 @@ social:
     url: https://twitter.com/SBootstrap
   - title: github
     url: https://github.com/IronSummitMedia/startbootstrap
-  - title: vk.com
+  - title: vk
     url: https://vk.com/id275006091
+
+# ------------------------------ #              
+# Настройка адреса для рег.формы #
+# например: exaple@gmail.com     #
+# заполняем так:                 # 
+# regform:                       #
+#   - user: exaple               #
+#     server: gmail.com          #
+# количество пробелов важно!     #
+# ------------------------------ #
+regform:
+  - user: craz
+    server: list.ru
