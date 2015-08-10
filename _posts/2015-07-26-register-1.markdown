@@ -14,57 +14,58 @@ description: |
 Все поля заполнять обязательно, иначе, регистрация будет невозможна. Пожалуйста, будьте внимательны при заполнении формы, наличие ошибок в ваших данных, приведет к затруднениям при оформлении договора и при выплате вам денег. 
  
 Сохранность данных и использование их по назначению гарантированы, в соответствии с федеральным законом №152-ФЗ "О персональных данных".
+
 <div class="regform">
-<form id="regForm" action="#"  method="POST">
-<div>
-	<label class="desc" id="title1" for="FIO">Фамилия, Имя, Отчество:</label>
-	<div>
-		<input id="FIO" name="FIO" type="text" class="field text fn" value="" size="8" tabindex="1" required>
-	</div>
-</div>
+	<form id="regForm" action="#"  method="POST">
+		<div>
+			<label class="desc" id="title1" for="FIO">Фамилия, Имя, Отчество:</label>
+			<div>
+				<input id="FIO" name="FIO" type="text" class="field text fn" value="" size="8" tabindex="1" required>
+			</div>
+		</div>
 
-<div>
-	<label class="desc" id="title2" for="Email">Email</label>
-	<div>
-		<input id="Email" name="Email" type="email" spellcheck="false" value="" maxlength="255" tabindex="2" required> 
-	</div>
-</div>
+		<div>
+			<label class="desc" id="title2" for="Email">Email</label>
+			<div>
+				<input id="Email" name="Email" type="email" spellcheck="false" value="" maxlength="255" tabindex="2" required> 
+			</div>
+		</div>
 
-<div>
-	<label class="desc" id="title3" for="Phone">Телефон:</label>
-	<div>
-		<input id="Phone" name="Phone" type="tel" spellcheck="false" value="" maxlength="255" tabindex="3" required> 
-	</div>
-</div>
+		<div>
+			<label class="desc" id="title3" for="Phone">Телефон:</label>
+			<div>
+				<input id="Phone" name="Phone" type="tel" spellcheck="false" value="" maxlength="255" tabindex="3" required> 
+			</div>
+		</div>
 
-<div>
-	<label class="desc" id="title3" for="Adress">Адрес:</label>
-	<div>
-		<input id="Adress" name="Adress" type="text" spellcheck="false" value="" maxlength="255" tabindex="4" required> 
-	</div>
-</div>
+		<div>
+			<label class="desc" id="title3" for="Adress">Адрес:</label>
+			<div>
+				<input id="Adress" name="Adress" type="text" spellcheck="false" value="" maxlength="255" tabindex="4" required> 
+			</div>
+		</div>
 
-<div>
-	<label class="desc" id="title4" for="Birh Date">Дата рождения:</label>
-	<div>
-		<input id="Birth Date" name="Birth Date" type="date" spellcheck="false" value="" maxlength="255" tabindex="5" required> 
-	</div>
-</div>
+		<div>
+			<label class="desc" id="title4" for="Birh Date">Дата рождения:</label>
+			<div>
+				<input id="Birth Date" name="Birth Date" type="date" spellcheck="false" value="" maxlength="255" tabindex="5" required> 
+			</div>
+		</div>
 
-<div>
-	<label class="desc" id="title5" for="Passport">Серия, номер паспорта:<sup><a href="#rlink">[1]</a></sup></label>
-	<div>
-		<input id="Passport" name="Passport" type="text" spellcheck="false" value="" maxlength="255" tabindex="6" required> 
-	</div>
-</div>
+		<div>
+			<label class="desc" id="title5" for="Passport">Серия, номер паспорта:<sup><a href="#rlink">[1]</a></sup></label>
+			<div>
+				<input id="Passport" name="Passport" type="text" spellcheck="false" value="" maxlength="255" tabindex="6" required> 
+			</div>
+		</div>
 
-<div>
-	<div>
-		<input id="saveForm" name="saveForm" type="submit" value="Send">
-</div>
-</div>
+		<div>
+			<div>
+				<input id="saveForm" name="saveForm" type="submit" value="Send">
+			</div>
+		</div>
 
-</form>
+	</form>
 </div>
 <ol>
 <li id="rlink">
