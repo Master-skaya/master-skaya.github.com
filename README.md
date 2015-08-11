@@ -84,7 +84,7 @@ Youtube видео так:
 Здесь *I89ShxerXIU* - код вашего видео из Youtube (**в двух местах**)
 
 ## Demo
-View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
+View this jekyll theme in action [here](https://timurey.github.io/)
 
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
