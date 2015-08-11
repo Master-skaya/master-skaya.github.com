@@ -21,10 +21,8 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/timurey/timurey.github.com
   - title: vk
     url: https://vk.com/id275006091
 
