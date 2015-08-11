@@ -1,4 +1,6 @@
-/*!
+---
+layout: js
+___/*!
  * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -163,4 +165,28 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.btn {
+    margin: 20px 0px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-register {
+    border: 1px solid {{ site.register-button.links }};
+    outline: 0;
+    color: {{ site.register-button.primary-dark }};
+    background-color: {{ site.register-button.links }};
+}
+
+.btn-register:hover{
+    border: 1px solid {{ site.register-button.links }};
+    color: {{ site.register-button.links }};
+    background-color: transparent;
+
 }
