@@ -16,59 +16,42 @@ description: |
 Сохранность данных и использование их по назначению гарантированы, в соответствии с федеральным законом №152-ФЗ "О персональных данных".
 
 
-<div class="regform">
-	<form id="regForm" action="#"  method="POST">
-		<div>
-			<label class="desc" id="title1" for="FIO">Фамилия, Имя, Отчество:</label>
-			<div>
-				<input id="FIO" name="FIO" type="text" class="field text fn" value="" size="8" tabindex="1" required>
-			</div>
-		</div>
+<div class="container">
 
-		<div>
-			<label class="desc" id="title2" for="Email">Email</label>
-			<div>
-				<input id="Email" name="Email" type="email" spellcheck="false" value="" maxlength="255" tabindex="2" required> 
-			</div>
-		</div>
-
-		<div>
-			<label class="desc" id="title3" for="Phone">Телефон:</label>
-			<div>
-				<input id="Phone" name="Phone" type="tel" spellcheck="false" value="" maxlength="255" tabindex="3" required> 
-			</div>
-		</div>
-
-		<div>
-			<label class="desc" id="title3" for="Adress">Адрес:</label>
-			<div>
-				<input id="Adress" name="Adress" type="text" spellcheck="false" value="" maxlength="255" tabindex="4" required> 
-			</div>
-		</div>
-
-		<div>
-			<label class="desc" id="title4" for="Birh Date">Дата рождения:</label>
-			<div>
-				<input id="Birth Date" name="Birth Date" type="date" spellcheck="false" value="" maxlength="255" tabindex="5" required> 
-			</div>
-		</div>
-
-		<div>
-			<label class="desc" id="title5" for="Passport">Серия, номер паспорта:<sup><a href="#rlink">[1]</a></sup></label>
-			<div>
-				<input id="Passport" name="Passport" type="text" spellcheck="false" value="" maxlength="255" tabindex="6" required> 
-			</div>
-		</div>
-
+	<form id="regForm" action="#" class="margin-base-vertical">
+		<p class="input-group">
+  			<span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+  			<input id="FIO" name="FIO" type="text" class="form-control" placeholder="Фамилия, Имя, Отчество">
+		</p>
+		<p class="input-group">
+  			<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+  			<input id="Email" name="Email" type="email" class="form-control" placeholder="Email">
+		</p>
+		<p class="input-group">
+  			<span class="input-group-addon"><span class="glyphicon glyphicon-phone"></span></span>
+  			<input id="Phone" name="Phone" type="tel" class="form-control" placeholder="Телефон">
+		</p>
+		<p class="input-group">
+  			<span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></span>
+  			<input id="Adress" name="Adress" type="text" class="form-control" placeholder="Адрес">
+		</p>
+		<p class="input-group">
+  			<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+  			<input id="Birth Date" name="Birth Date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" class="form-control" placeholder="Дата рождения">
+		</p>
+		<p class="input-group">
+  			<span class="input-group-addon" ><span class="glyphicon glyphicon-pencil"></span></span>
+  			<input id="Passport" type="text" class="form-control" placeholder="Серия, номер паспорта">
+		</p>
+		<sup><a href="#rlink">[1]</a></sup>
 		<div>
 			<div>
-				<input id="saveForm" name="saveForm" type="submit" value="Send">
+				<button type="submit" class="btn btn-default">Зарегистрировать</button>
 			</div>
 		</div>
 
 	</form>
 </div>
-
 <ol>
 <li id="rlink">
 <b>Вопрос:</b> Зачем нужны серия и номер паспорта?

@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
+url: http://timurey.github.io
 title: Мастерская успеха
 email: craz@list.ru
 author: Valentina Taipova
@@ -36,11 +36,11 @@ social:
 # количество пробелов важно!     #
 # ------------------------------ #
 regform:
-  - user: craz
-    server: list.ru
+  - user: valentinataipova
+    server: gmail.com
 
 # Color settings (hex-codes without the leading hash-tag)
 register-button:
   primary-dark: '#000000'
   links: '#4ddba4'
-  text: 'Присоединяюсь!'
+  text: 'Заполняю анкету!'

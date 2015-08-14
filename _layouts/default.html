@@ -3,6 +3,7 @@
 	{% include head.html %}
 
 	<body>
+
 		{% include header.html %}
 		{% include about_content.html %}
 		{% include project_content.html %}
@@ -16,6 +17,17 @@
 	<script type="text/javascript">
 	$(document).ready(function () {
 		$(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
+		$('.popover-markup>.trigger').popover({
+    html: true,
+    title: function () {
+        return $(this).parent().find('.head').html();
+    },
+    content: function () {
+        return $(this).parent().find('.content').html();
+    }
+});
 	});
+
+
 </script>
 </html>
