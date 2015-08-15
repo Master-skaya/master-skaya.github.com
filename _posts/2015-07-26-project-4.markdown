@@ -1,6 +1,6 @@
 ---
 layout: default
-img: salarios.jpg
+img: ipad/salarios_ipadair2_spacegrey_landscape.png
 category: Project
 title: О доходах
 description: |

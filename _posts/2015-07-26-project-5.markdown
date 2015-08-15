@@ -1,6 +1,6 @@
 ---
 layout: default
-img: education.jpg
+img: ipad/education_ipadair2_spacegrey_landscape.png
 category: Project
 title: Что конкретно вам нужно будет делать?
 description: |
