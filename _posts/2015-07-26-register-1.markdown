@@ -45,9 +45,7 @@ description: |
 		</p>
 		<sup><a href="#rlink">[1]</a></sup>
 		<div>
-			<div>
-				<button type="submit" class="btn btn-default">Зарегистрировать</button>
-			</div>
+			<button type="submit" class="btn btn-default">Отправить заявку</button>
 		</div>
 
 	</form>
