@@ -3,7 +3,7 @@
 	{% include head.html %}
 
 	<body>
-
+		{% include gallery.html %}
 		{% include header.html %}
 		{% include about_content.html %}
 		{% include project_content.html %}
@@ -18,15 +18,19 @@
 	$(document).ready(function () {
 		$(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
 		$('.popover-markup>.trigger').popover({
-    html: true,
-    title: function () {
-        return $(this).parent().find('.head').html();
-    },
-    content: function () {
-        return $(this).parent().find('.content').html();
-    }
-});
-	});
+    	html: true,
+    	title: function () {
+       	 return $(this).parent().find('.head').html();
+   	 	},
+    	content: function () {
+        	return $(this).parent().find('.content').html();
+    	}
+
+		});
+		$(".youtube").YouTubeModal({autoplay:0, width:640, height:480});
+ 
+}); 
+
 
 
 </script>

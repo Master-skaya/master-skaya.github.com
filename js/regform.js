@@ -1,5 +1,5 @@
 ---
-layout: js
+layout: raw
 ---
 var $contactForm = $('#regForm');
 $contactForm.submit(function(e) {
