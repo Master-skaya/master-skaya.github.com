@@ -14,7 +14,7 @@ description: |
 Сейчас очень интересное время и возможности интернета дают удивительные результаты. Изучайте, работайте и пусть у вас все получается легко!!!  
  
 Это моя бухгалтерская справка, сумму по которой компания-партнер Oriflame, присылает каждые 3 недели на мой расчетный счет в банке.
-![](img/services/reference.jpg){:width="100%" vspace="5"}
-![](img/services/garipova_reference.jpg){:width="100%" vspace="5"}
-![](img/services/kuznetsova_reference.jpg){:width="100%" vspace="5"}
-![](img/services/svetlana_reference.jpg){:width="100%" vspace="5"}
+![](img/services/reference_taipova.jpg){:width="100%" vspace="5"}
+![](img/services/reference_garipova.jpg){:width="100%" vspace="5"}
+![](img/services/reference_kuznetsova.jpg){:width="100%" vspace="5"}
+![](img/services/reference_shaybakova.jpg){:width="100%" vspace="5"}

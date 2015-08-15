@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: fluence.jpg
 category: Project
 title: О проекте
 description: |

@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: education.jpg
 category: Project
 title: Что конкретно вам нужно будет делать?
 description: |
