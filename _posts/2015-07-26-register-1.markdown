@@ -33,7 +33,7 @@ description: |
 		</p>
 		<p class="input-group">
   			<span class="input-group-addon"><span class="glyphicon glyphicon-map-marker"></span></span>
-  			<input id="Adress" name="Adress" type="text" class="form-control" placeholder="Адрес">
+  			<input id="Adress" name="Adress" type="text" class="form-control" placeholder="Адрес: город, улица, дом">
 		</p>
 		<p class="input-group">
   			<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
