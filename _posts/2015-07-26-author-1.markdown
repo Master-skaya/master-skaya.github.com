@@ -1,6 +1,6 @@
 ---
 layout: default
-img: [ipad/i_am_ipadair2_spacegrey_landscape.png, my_family.jpg, my_command.jpg, travel.png, travel_1.png]
+img: [ipad/i_am_ipadair2_spacegrey_landscape.png, ipad/my_family_ipadair2_spacegrey_portrait.png, ipad/moscow_ipadair2_spacegrey_landscape.png, ipad/moscow2_ipadair2_spacegrey_portrait.png]
 category: Author
 title: Обо мне
 description: |

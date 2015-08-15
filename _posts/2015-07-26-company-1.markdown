@@ -44,4 +44,4 @@ description: |
 НЕ используются!!!
  
 Работа исключительно информационно-рекламного характера!!!
-![](img/services/success_stair.jpg){:width="100%" vspace="5"}
+[![](img/services/success_stair.jpg){:width="100%" vspace="5" alt="Карьерная лестница Орифлейм"}](img/services/full/success_stair.jpg  "Карьерная лестница Орифлейм"){:data-gallery=""}
