@@ -1,5 +1,5 @@
 ---
-layout: js
+layout: raw
 category: Readme
 ---
 # Мастерская успеха
