@@ -72,8 +72,10 @@ title: О сайте
 Изображения вставляем так:
  
 ```
-![](img/services/succes_stair.jpg){:width="100%" vspace="5"}
+[![](img/services/reference_taipova.jpg){:width="100%" vspace="5" alt="Валентина Таипова"}](img/services/full/reference_taipova.jpg  "Валентина Таипова"){:data-gallery=""}
 ```
+где *img/services/reference_taipova.jpg* - превью изображения,
+*img/services/full/reference_taipova.jpg* - путь к полноразмерному изображению
 
 Youtube видео так:
 
