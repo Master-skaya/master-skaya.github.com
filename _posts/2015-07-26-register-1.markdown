@@ -41,7 +41,7 @@ description: |
 		</p>
 		<p class="input-group">
   			<span class="input-group-addon" ><span class="glyphicon glyphicon-pencil"></span></span>
-  			<input id="Passport" type="text" class="form-control" placeholder="Серия, номер паспорта">
+  			<input id="Passport" type="text" name="Passport" class="form-control" placeholder="Серия, номер паспорта">
 		</p>
 		<sup><a href="#rlink">[1]</a></sup>
 		<div id="btn_smbt">
