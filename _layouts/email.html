@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ site.url }}/css/email.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<!--[if (gte mso 9)|(IE)]>
+		<table width="600" align="center">
+		<tr>
+		<td>
+		<![endif]-->
+		<table class="newsletter middle" align="center" width="100%">
+			<tr>
+				<td class="cover intro-header">
+				<div class="intro-message">
+					<a href="{{ site.url }}" target="_blank">
+						<div class="h1_lp">{{ page.title }}</div>
+						<div class="h3_lp">{{ page.subTitle }}</div>
+					</a>
+				</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="one-column content">
+					<div class="column">
+						<table class="outer">
+							<tr>
+								<td class="inner">
+								{{ page.content | markdownify }}
+
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+
+		</table>
+		<!--[if (gte mso 9)|(IE)]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+		<!--[if (gte mso 9)|(IE)]>
+		<table width="600" align="center">
+		<tr>
+		<td>
+		<![endif]-->
+		<table class="newsletter" align="center" width="100%">
+			<tr>
+				<td class="one-column footer">
+					<div class="column">
+						<table class="outer">
+							<tr>
+								<td class="inner">
+									<div class="h1">
+										Связаться со мной:
+									</div>
+									<br>
+									<div align="center">
+										<table align="center" cellpadding="10" cellspacing="0" style="margin:0 auto;">
+											<tr>
+												<td>
+													<a href="https://vk.com/id13686720" target="_blank">
+														<img width="24" height="24" src="/icons/vkontakte.png">
+													</a>
+												</td>
+												<td>
+													<a href="skype:Zilyaboss?call" target="_blank">
+														<img width="24" height="24" src="/icons/skype.png">
+													</a>
+												</td>
+											</tr>
+										</table>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="one-column credits">
+					<div class="column">
+						<table class="outer">
+							<tr>
+								<td class="inner">
+									<div class="paragraph">
+										Social icons by
+										<a href="http://www.socicon.com/" target="_blank"><span>Socicon</span></a>
+										<br>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+		<!--[if (gte mso 9)|(IE)]>
+		</td>
+		</tr>
+		</table>
+		<![endif]-->
+	</div>
+</body>
+
+</html>
