@@ -3,7 +3,7 @@
 # ----------------------- #
 
 url: https://master-skaya.github.io
-title: Мастерская успеха
+title: Валентина Таипова
 email: valentinataipova@gmail.com
 author: Valentina Taipova
 description: > # "партнерская система"
@@ -21,9 +21,14 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: youtube
+    url: https://www.youtube.com/channel/UCpTLLD1sJHEET1eIpJ7ne8g
+  - title: facebook
+    url: https://www.facebook.com/profile.php?id=100009549590302
+  - title: instagram
+    url: https://www.instagram.com/valentina.taipova/
   - title: vk
-    url: https://vk.com/id3858151
-
+    url: http://vk.com/id3858151
 # ------------------------------ #              
 # Настройка адреса для рег.формы #
 # например: exaple@gmail.com     #
@@ -42,3 +47,9 @@ register-button:
   primary-dark: '#000000'
   links: '#4ddba4'
   text: 'Заполняю анкету!'
+
+href-button:
+  primary-dark: '#000000'
+  links: '#4ddba4'
+  href: "http://rabotavinet.com/?top=39"
+  text: 'Подробности'
